@@ -1,2 +1,4 @@
 # todos_app
-A todo app based off vanilla JS, HTML and CSS. 
+#A todo app based off vanilla JS, HTML and CSS. 
+
+To run just download zip file and run index.html in any browser
