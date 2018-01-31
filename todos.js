@@ -67,3 +67,14 @@ var todoList = {
 
 
 };
+
+var displayTodosButton = document.getElementById("displayTodos");
+var toggleTodosButton = document.getElementById("toggleAll");
+
+displayTodosButton.addEventListener("click", () => {
+    todoList.display();
+});
+
+toggleTodosButton.addEventListener("click", () => {
+    todoList.toggleAll();
+});
