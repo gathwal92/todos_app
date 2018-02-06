@@ -104,3 +104,4 @@ var handlers = {
         completedTodoPosition = '';
     }
 };
+
