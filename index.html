@@ -6,11 +6,36 @@
   </head>
 
   <body>
+    
     <h1>Todo List</h1>
+    
+    <div>
+      <button onClick="handlers.addTodo()">Add</button>
+      <input id="addTodoText" type="text">
+    </div>
+    
+    <div>
+      <button onClick="handlers.updateTodo()">Update</button>
+      <input id="updateTodoPosition" type="number">
+      <input id="updateTodoText" type="text">
+    </div>
 
+    <div>
+      <button onClick="handlers.completedTodo()">Completed Todo</button>
+      <input id="completedTodoPosition" type="number">
+    </div>
+    
+    <div>
+      <button onClick="handlers.displayTodos()">Display Todos</button>
+      <button onClick="handlers.toggleAll()">Toggle All</button>
+    </div>
 
-    <button id="displayTodos">Display Todos</button>
-    <button id="toggleAll">Toggle All</button>
+    <div>
+      <button onClick="handlers.deleteTodo()">Delete</button>
+      <input id = "deleteTodoPositon" type="number">
+    </div>
+
+  
 
 
 
