@@ -1,4 +1,6 @@
 # Todo List App
-## todo app based off vanilla JS, HTML and CSS. 
+## Todo app based off vanilla JavaScript, HTML and CSS. 
 
-####### To run just download zip file and run index.html in any browser
+To run download zip file and extract the folder of content 
+
+Open index.html with any browser
