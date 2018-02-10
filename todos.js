@@ -101,8 +101,16 @@ var view = {
             }
 
             todosLi.textContent = completed;
+            todosLi.appendChild(this.createDeleteButton());
             todosUl.appendChild(todosLi);
         }
+    },
+
+    createDeleteButton: () => {
+        var deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Delete';
+        deleteButton.className = 'deleteButton';
+        return deleteButton;
     }
 
 
