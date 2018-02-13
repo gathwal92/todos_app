@@ -101,7 +101,7 @@ var view = {
             }
 
             todosLi.textContent = completed;
-            todosLi.appendChild(this.createDeleteButton());
+            todosLi.appendChild(view.createDeleteButton());
             todosUl.appendChild(todosLi);
         }
     },
